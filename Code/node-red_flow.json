@@ -1,0 +1,38 @@
+[
+    {
+        "id": "269fd2d1.ad353e",
+        "type": "ui_text",
+        "z": "254cc848.2228f8",
+        "group": "780b7db0.782e24",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "HUMIDITY",
+        "format": "{{msg.payload.main.humidity}}",
+        "layout": "row-spread",
+        "x": 650,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "780b7db0.782e24",
+        "type": "ui_group",
+        "z": "",
+        "name": "DATA",
+        "tab": "89e24107.7ca9d",
+        "order": 1,
+        "disp": false,
+        "width": 18,
+        "collapse": false
+    },
+    {
+        "id": "89e24107.7ca9d",
+        "type": "ui_tab",
+        "z": "",
+        "name": "SMART AGRICULTURE SYSTEM BASED ON IoT",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
